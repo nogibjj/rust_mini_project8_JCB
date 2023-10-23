@@ -7,13 +7,15 @@ from lib import get_prices
 import time
 
 
-def main(ticker="AAPL", period="1mo", interval="1d"):
-    start_time = time.time()
-    data = get_prices(ticker, period, interval)
-    print(data)
-    end_time = time.time()
-    print(f"Elapsed time: {end_time - start_time}")
-    pass
+def main(tickers=["GOOG", "AAPL", "AMZN", "META"], period="1mo", interval="1d"):
+    for ticker in tickers:
+        start_time = time.time()
+        data = get_prices(ticker, period, interval)
+        end_time = time.time()
+        print(f"Data for {ticker}:")
+        print(data)
+        print(f"Elapsed time: {end_time - start_time:.2f} seconds")
+        print("=" * 50)
 
 
 if __name__ == "__main__":
