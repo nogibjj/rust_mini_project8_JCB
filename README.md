@@ -12,10 +12,15 @@ A few projects for Rust Data Engineering Coursera course that I've kept to use a
 3) polars-hello-world-code-whisperer
 
 Adding a few projects from what I've learned:
-1) rust_yahoo_finance | `cd rust_yahoo_finance` and check it out
+1) rust_yahoo_finance | `cd rust_yahoo_finance` and check out the [README](https://github.com/nogibjj/rust_mini_project8_JCB/blob/main/rust_yahoo_finance/README.md) for implementation
+2) python_yahoo_finance | replicated the same project i did in Rust so I could compare performance `cd python_yahoo_finance`
+
+# Rust vs Python performance metrics
+'report results using 1 ticker'
+'report results using 4 tickers'
 
 ### future learning:
-1) rust vs python
+1) rust vs python **check
 2) rust in the cloud
 
 
