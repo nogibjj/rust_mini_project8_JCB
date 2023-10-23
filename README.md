@@ -16,8 +16,9 @@ Adding a few projects from what I've learned:
 2) python_yahoo_finance | replicated the same project i did in Rust so I could compare performance `cd python_yahoo_finance`
 
 # Rust vs Python performance metrics
-'report results using 1 ticker'
-'report results using 4 tickers'
+'report results using 1 ticker ... how long does it take for data to download + how long to print'
+
+'report results using 4 tickers ... how long does it take for data to download + how long to print'
 
 ### future learning:
 1) rust vs python **check
